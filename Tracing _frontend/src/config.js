@@ -1,0 +1,9 @@
+export const baseApi = process.env.REACT_APP_BASE_API;
+export const googleApiKey = process.env.REACT_APP_GOOGLE_API_KEY;
+export const openaiApiKey = process.env.REACT_APP_OPENAI_API_KEY;
+export const openaiOrgId = process.env.REACT_APP_OPENAI_ORG_ID;
+export const googleAuthKey = process.env.REACT_APP_GOOGLE_AUTH_KEY;
+export const microsoftApiKey = process.env.REACT_APP_MICROSOFT_API_KEY;
+export const referralTitle = process.env.REACT_APP_REFERRAL_TITLE;
+export const referralBodyText = process.env.REACT_APP_REFERRAL_BODY_TEXT;
+export const isDevelopment = true;

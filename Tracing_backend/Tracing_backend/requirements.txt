@@ -1,0 +1,12 @@
+uvicorn
+fastapi
+pymongo
+shortuuid
+redis
+google-api-python-client
+boto3
+deepgram-sdk
+transformers
+python-multipart
+openpyxl
+zenrows
