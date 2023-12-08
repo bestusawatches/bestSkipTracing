@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add
+
+PATH: 
+  C:\Users\Vishnu\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Vishnu\bin;C:\Program Files (x86)\Cuminas\Document Express DjVu Plug-in;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\Users\Vishnu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\GitHub CLI;C:\Program Files\nodejs;C:\Users\Vishnu\AppData\Local\Microsoft\WindowsApps;C:\Users\Vishnu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Vishnu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Vishnu\AppData\Local\Yarn\bin;C:\Users\Vishnu\AppData\Local\GitHubDesktop\bin;C:\Users\Vishnu\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EISDIR: illegal operation on a directory, read
+
+npm manifest: 
+  {
+    "name": "fluentai",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.11.0",
+      "@emotion/styled": "^11.11.0",
+      "@mui/material": "^5.13.0",
+      "@mui/system": "^5.12.3",
+      "cra-template": "1.2.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-scripts": "^5.0.1",
+      "styled-components": "^6.0.0-rc.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
