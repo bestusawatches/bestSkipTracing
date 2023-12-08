@@ -1,0 +1,58 @@
+DB_URI = 'mongodb://root:rootpassword@localhost:27017/'
+DB_NAME = 'fluentai'
+
+REDIS_HOST='0.0.0.0'
+REDIS_PORT=6379
+
+LOGIN_TYPES = {
+    "password": 1,
+    "google": 2
+}
+
+from_mail = "info@devtomaster.com"
+SMTP_USER = ""
+SMTP_PASSWORD = ""
+SMTP_HOST = "email-smtp.ap-south-1.amazonaws.com"
+SMTP_PORT = 587
+
+FRONTEND_URL = "https://fluentai.devtomaster.com/"
+FRONTEND_VERIFY_PAGE="verify"
+FRONTEND_SIGNUP_PAGE="signup"
+
+JWT_SECRET="ViY15eiS40To"
+
+LOGIN_EMAIL_VERIFY_TIME = 30
+AUTH_TOKEN_EXPIRY_TIME=12*60
+
+
+GOOGLE_CLIENT_ID = ""
+GOOGLE_CLIENT_SECRET = ""
+
+DEEPGRAM_API_KEY = ""
+OPENAI_API_KEY = ""
+
+FLUENCY_LEVELS = {
+    "beginner": 1,
+    "intermediate": 2,
+    "advanced": 3,
+    "fluent": 4,
+    "native": 5
+}
+
+MIN_FLUENCY_LEVEL = 1
+MAX_FLUENCY_LEVEL = 5
+
+
+DEFAULT_PAGINATION_PAGE=1
+DEFAULT_PAGINATION_LIMIT=10
+
+
+DEEPGRAM_CHINESE_LANG_CODE = "zh-CN"
+DEEPGRAM_SPANISH_LANG_CODE = "es"
+
+AWS_S3_ACCESS_KEY_ID = ""
+AWS_S3_SECRET_KEY = ""
+AWS_S3_BUCKET_NAME = "fluent-ai-dev"
+AWS_S3_BASE_URL = "https://fluent-ai-dev.s3.ap-south-1.amazonaws.com/"
+
+AUDIO_FILE_SIGNED_URL_EXPIRY_TIME = 3600
