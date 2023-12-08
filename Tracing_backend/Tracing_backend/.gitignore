@@ -1,6 +1,0 @@
-venv/
-env
-config.py
-__pycache__
-.idea/
-test.py
